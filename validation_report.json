@@ -1,0 +1,100 @@
+{
+  "timestamp": "2026-03-16T11:27:04.692098",
+  "checks": {
+    "files": {
+      "Frontend": {
+        "streamlit_app.py": "PASS",
+        "streamlit_app_v2.py": "PASS"
+      },
+      "Backend Core": {
+        "pipeline.py": "PASS",
+        "audio_preprocess.py": "PASS",
+        "speech_to_text.py": "PASS",
+        "keywords.py": "PASS",
+        "sentiment.py": "PASS",
+        "summarizer.py": "PASS",
+        "segment_indexing.py": "PASS",
+        "search.py": "PASS"
+      },
+      "Visualization": {
+        "visualization.py": "PASS"
+      },
+      "Testing": {
+        "multi_episode_test.py": "PASS",
+        "system_test.py": "PASS"
+      },
+      "Configuration": {
+        "requirements.txt": "PASS",
+        "README_v2.md": "PASS"
+      }
+    },
+    "directories": {
+      "data": "PASS",
+      "final_outputs": "PASS",
+      "test_results": "PASS"
+    },
+    "imports": {
+      "Core Backend": {
+        "pipeline": "PASS",
+        "audio_preprocess": "PASS",
+        "speech_to_text": "PASS",
+        "keywords": "PASS",
+        "sentiment": "PASS",
+        "summarizer": "PASS",
+        "segment_indexing": "PASS",
+        "search": "PASS"
+      },
+      "Frontend": {
+        "streamlit_app_v2": "PASS",
+        "visualization": "PASS"
+      },
+      "Testing": {
+        "multi_episode_test": "PASS"
+      },
+      "Dependencies": {
+        "torch": "PASS",
+        "transformers": "PASS",
+        "librosa": "PASS",
+        "streamlit": "PASS",
+        "plotly": "PASS"
+      }
+    },
+    "dependencies": {
+      "torch": "2.10.0+cpu",
+      "transformers": "5.3.0",
+      "librosa": "0.11.0",
+      "streamlit": "1.55.0",
+      "plotly": "6.6.0",
+      "pandas": "2.3.3",
+      "numpy": "2.3.5",
+      "faster_whisper": "NOT_INSTALLED"
+    },
+    "pipeline": {
+      "import": "PASS",
+      "signature": {
+        "params": [
+          "audio_path",
+          "save_output",
+          "output_dir"
+        ]
+      },
+      "modules": "PASS"
+    },
+    "frontend": {
+      "pipeline_import": "PASS",
+      "visualizations": "PASS",
+      "streamlit": "PASS"
+    },
+    "sample_test": {
+      "status": "NO_SAMPLE"
+    }
+  },
+  "status": "FAIL",
+  "summary": {
+    "passed": 57,
+    "failed": 1,
+    "warnings": 1,
+    "total": 59,
+    "success_rate": 96.6
+  }
+}
