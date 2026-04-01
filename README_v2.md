@@ -30,8 +30,11 @@ streamlit run streamlit_app_v2.py
 # Test multiple episodes
 python multi_episode_test.py data/
 
-# Data Set For the auto matic transcription
+<<<<<<< HEAD
+=======
+# Data Set For the auto matic tanscription
 Google Drive 
+>>>>>>> bf91aff (clean upload)
 
 ---
 
