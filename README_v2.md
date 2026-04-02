@@ -30,13 +30,12 @@ streamlit run streamlit_app_v2.py
 # Test multiple episodes
 python multi_episode_test.py data/
 
-<<<<<<< HEAD
-=======
-# Data Set For the auto matic tanscription
-Google Drive 
->>>>>>> bf91aff (clean upload)
 
----
+# Data Set For the auto matic tanscription
+Google Drive  : https://drive.google.com/drive/folders/1kQgdT2S7ZBiF-w132hjUcvXc-Gr4KabO?usp=drive_link
+
+
+
 
 ## Caching System (NEW)
 
